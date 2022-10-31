@@ -1,1 +1,13 @@
-/* styles go here */
+.main_field {
+  display: block;
+  margin: 20px 0;
+}
+
+#terms::placeholder {
+  color: rgb(83, 83, 144);
+}
+
+.form-field {
+  display: block;
+  margin: 10px 0;
+}
