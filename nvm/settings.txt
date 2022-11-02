@@ -1,2 +1,0 @@
-root: D:\layout_html-form\nvm
-path: C:\Program Files\nodejs
