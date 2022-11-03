@@ -1,6 +1,6 @@
 .main_field {
   display: block;
-  margin: 20px 0;
+  margin-bottom: 20px;
 }
 
 #terms::placeholder {
@@ -10,4 +10,9 @@
 .form-field {
   display: block;
   margin: 10px 0;
+}
+
+.second-form-field {
+  display: block;
+  margin-bottom: 10px;
 }

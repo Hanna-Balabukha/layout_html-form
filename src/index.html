@@ -10,114 +10,114 @@
     <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-    <h1>HTML Form</h1>
     <script type="text/javascript" src="./main.js"></script>
-    <form action="http://localhost:8080/" 
-    method="post" 
+    <form action="http://localhost:8080/"
+    method="post"
     class="main_field"
     >
 
       <fieldset>
         <legend>Personal information</legend>
 
-        <label class="form-field">
+        <label class="first-form-field">
           Surname:
-          <input 
-          type="text" 
-          name="surname" 
+          <input
+          type="text"
+          name="surname"
           required
           >
         </label>
 
         <label class="form-field">
           Name:
-          <input 
-          type="text" 
-          name="name" 
+          <input
+          type="text"
+          name="name"
           required
           >
         </label>
 
         <label class="form-field">
           How old are You?
-          <input 
-          type="number" 
-          name="old" 
-          min="1" 
-          max="100" 
+          <input
+          type="number"
+          name="old"
+          min="1"
+          max="100"
           placeholder="12"
           >
         </label>
 
         <label class="form-field">
           Full date of birth:
-          <input 
-          type="date" 
+          <input
+          type="date"
           name="birth"
           >
         </label>
 
-        <div class="form-field">
+        <div class="first-form-field">
           <label for="terms">I accept the terms of the agreement</label>
-          <input 
-          type="checkbox" 
-          id="terms" 
+          <input
+          type="checkbox"
+          id="terms"
           name="terms"
           >
         </div>
       </fieldset>
     </form>
 
-    <form action="http://localhost:8080/" 
-    method="post" 
+    <form action="http://localhost:8080/"
+    method="post"
     class="main_field">
       <fieldset>
         <legend>Registration</legend>
 
-        <label class="form-field">
+
+        <label class="second-form-field">
           E-mail:
-          <input 
-          type="email" 
-          name="mail" 
-          placeholder="email@example.com" 
+          <input
+          type="email"
+          name="mail"
+          placeholder="email@example.com"
           required
           >
         </label>
 
-        <label class="form-field">
+        <label class="first-form-field">
           Password:
-          <input 
-          type="password" 
-          name="pass" 
-          minlength="0" 
-          maxlength="10" 
+          <input
+          type="password"
+          name="pass"
+          minlength="0"
+          maxlength="10"
           required
           >
         </label>
       </fieldset>
     </form>
 
-    <form action="http://localhost:8080/" 
-    method="post" 
+    <form action="http://localhost:8080/"
+    method="post"
     class="main_field">
       <fieldset>
         <legend>An interesting fact about you!</legend>
 
-        <div class="form-field">
+        <div class="first-form-field">
           Do you love cats?
           <label>
-            <input 
-            type="radio" 
-            name="yes" 
+            <input
+            type="radio"
+            name="yes"
             value="y"
             >
             Yes
           </label>
 
           <label>
-            <input 
-            type="radio" 
-            name="no" 
+            <input
+            type="radio"
+            name="no"
             value="n"
             >
             No
@@ -126,8 +126,8 @@
 
         <label class="form-field">
           What is your favorite color?
-          <input 
-          type="color" 
+          <input
+          type="color"
           name="color"
           >
         </label>
@@ -135,54 +135,49 @@
         <div class="form-field">
           <label>
             What time do you go to bed?
-            <input 
-            type="time" 
+            <input
+            type="time"
             name="time"
             >
           </label>
         </div>
 
-        <div class="form-field">
-          <label>
+        <label class="form-field">
             What are your favorite brand of cars?
-            <select name="cars">
-              <option value="123" 
-              selected 
-              multiple
-             ></option>
-              <option value="BMW">BMW</option>
-              <option value="Audi">Audi</option>
-              <option value="Lada">Lada</option>
-            </select>
-          </label>
-        </div>
+          <select name="cars" multiple>
+            <option value="123"
+              selected
+           ></option>
+            <option value="BMW">BMW</option>
+            <option value="Audi">Audi</option>
+            <option value="Lada">Lada</option>
+          </select>
+        </label>
 
-        <div class="form-field">
-          <label>
+        <label class="first-form-field">
           How do you rate our work?
-            <input type="range" name="volume">
-          </label>
-        </div>
+          <input type="range" name="volume">
+        </label>
       </fieldset>
     </form>
 
-    <form action="http://localhost:8080/" 
-    method="post" 
+    <form action="http://localhost:8080/"
+    method="post"
     class="main_field">
       <fieldset>
         <legend>Additional info:</legend>
 
-        <div class="form-field">
+        <label class="second-form-field">
           Comments:
-          <textarea name="feedback" 
-          rows="2" 
-          cols="30" 
-          autocomplete="off" 
+          <textarea name="feedback"
+          rows="2"
+          cols="30"
+          autocomplete="off"
           class="form-fiels"
          ></textarea>
-        </div>
+        </label>
 
-        <label class="form-field">
+        <label>
           Would you recommend us?
           <select name="feedback" required>
             <option value="yes">Yes</option>
