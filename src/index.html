@@ -11,9 +11,10 @@
   </head>
   <body>
     <script type="text/javascript" src="./main.js"></script>
-    <form action="http://localhost:8080/"
-    method="post"
-    class="main_field"
+    <form
+      action="http://localhost:8080/"
+      method="post"
+      class="main_field"
     >
 
       <fieldset>
@@ -22,54 +23,54 @@
         <label class="first-form-field">
           Surname:
           <input
-          type="text"
-          name="surname"
-          required
+            type="text"
+            name="surname"
+            required
           >
         </label>
 
         <label class="form-field">
           Name:
           <input
-          type="text"
-          name="name"
-          required
+            type="text"
+            name="name"
+            required
           >
         </label>
 
         <label class="form-field">
           How old are You?
           <input
-          type="number"
-          name="old"
-          min="1"
-          max="100"
-          placeholder="12"
+            type="number"
+            name="old"
+            min="1"
+            max="100"
+            placeholder="12"
           >
         </label>
 
         <label class="form-field">
           Full date of birth:
           <input
-          type="date"
-          name="birth"
+            type="date"
+            name="birth"
           >
         </label>
 
         <div class="first-form-field">
           <label for="terms">I accept the terms of the agreement</label>
           <input
-          type="checkbox"
-          id="terms"
-          name="terms"
+            type="checkbox"
+            id="terms"
+            name="terms"
           >
         </div>
       </fieldset>
     </form>
 
     <form action="http://localhost:8080/"
-    method="post"
-    class="main_field">
+      method="post"
+      class="main_field">
       <fieldset>
         <legend>Registration</legend>
 
@@ -77,58 +78,57 @@
         <label class="second-form-field">
           E-mail:
           <input
-          type="email"
-          name="mail"
-          placeholder="email@example.com"
-          required
+            type="email"
+            name="mail"
+            placeholder="email@example.com"
+            required
           >
         </label>
 
         <label class="first-form-field">
           Password:
           <input
-          type="password"
-          name="pass"
-          minlength="0"
-          maxlength="10"
-          required
+            type="password"
+            name="pass"
+            minlength="0"
+            maxlength="10"
+            required
           >
         </label>
       </fieldset>
     </form>
 
-    <form action="http://localhost:8080/"
-    method="post"
-    class="main_field">
+    <form
+      action="http://localhost:8080/"
+      method="post"
+      class="main_field"
+    >
       <fieldset>
         <legend>An interesting fact about you!</legend>
 
-        <div class="first-form-field">
+        <label class="first-form-field">
           Do you love cats?
-          <label>
-            <input
+          <input
             type="radio"
-            name="yes"
+            name="choose"
             value="y"
-            >
+          >
             Yes
-          </label>
 
-          <label>
-            <input
+          <input
             type="radio"
-            name="no"
+            name="choose"
             value="n"
-            >
+          >
             No
-          </label>
+        </label>
         </div>
 
         <label class="form-field">
           What is your favorite color?
           <input
-          type="color"
-          name="color"
+            type="color"
+            name="color"
           >
         </label>
 
@@ -136,8 +136,8 @@
           <label>
             What time do you go to bed?
             <input
-            type="time"
-            name="time"
+              type="time"
+              name="time"
             >
           </label>
         </div>
@@ -156,25 +156,30 @@
 
         <label class="first-form-field">
           How do you rate our work?
-          <input type="range" name="volume">
+          <input
+            type="range"
+            name="volume"
+          >
         </label>
       </fieldset>
     </form>
 
-    <form action="http://localhost:8080/"
-    method="post"
-    class="main_field">
+    <form
+      action="http://localhost:8080/"
+      method="post"
+      class="main_field"
+    >
       <fieldset>
         <legend>Additional info:</legend>
 
         <label class="second-form-field">
           Comments:
           <textarea name="feedback"
-          rows="2"
-          cols="30"
-          autocomplete="off"
-          class="form-fiels"
-         ></textarea>
+            rows="2"
+            cols="30"
+            autocomplete="off"
+            class="form-fiels"
+          ></textarea>
         </label>
 
         <label>
